@@ -1,4 +1,4 @@
-package 배열;
+package Java.배열;
 
 class Solution05 {
     public int[][] solution(int[][] arr1, int[][] arr2) {

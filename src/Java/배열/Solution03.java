@@ -1,4 +1,4 @@
-package 배열;
+package Java.배열;
 
 import java.util.HashSet;
 
