@@ -1,5 +1,5 @@
 package Java.배열;
-
+/* 행렬의 곱셈 */
 class Solution05 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int m1 = arr1.length;

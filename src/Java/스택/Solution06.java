@@ -1,6 +1,7 @@
 package Java.스택;
 
 import java.util.*;
+/**주식 가격*/
 class Solution06 {
     public int[] solution(int[] prices) {
         int n = prices.length;
@@ -10,7 +11,7 @@ class Solution06 {
         stack.push(0);
 
         for (int i = 1; i < n; i++) {
-            if (!stack.isEmpty() && prices[i] < prices[(stack.peek())]) {
+            while (!stack.isEmpty() && prices[i] < prices[(stack.peek())]) {
                 int j = stack.pop();
                 answer[j] = i - j;
             }

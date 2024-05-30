@@ -1,7 +1,7 @@
 package Java.배열;
 
 import java.util.HashSet;
-
+/* 두 개 뽑아서 더하기*/
 class Solution03 {
     public int[] solution(int[] numbers) {
         HashSet<Integer> set = new HashSet<>();

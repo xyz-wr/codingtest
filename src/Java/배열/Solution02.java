@@ -2,7 +2,7 @@ package Java.배열;
 
 import java.util.Arrays;
 import java.util.Collections;
-
+/* 배열 제어하기*/
 public class Solution02 {
 
     public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class Solution02 {
     private static int[] solution(int[] arr) {
         Integer[] result = Arrays.stream(arr).boxed().distinct().toArray(Integer[]::new);
         Arrays.sort(result, Collections.reverseOrder());
+
         return Arrays.stream(result).mapToInt(Integer::intValue).toArray();
     }
 

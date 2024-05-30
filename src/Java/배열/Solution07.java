@@ -1,6 +1,6 @@
 package Java.배열;
 import java.util.*;
-
+/* 방문 길이*/
 class Solution07 {
     private static boolean isValidMove(int nx, int ny) {
         return 0 <= nx && nx < 11 && 0 <= ny && ny < 11;

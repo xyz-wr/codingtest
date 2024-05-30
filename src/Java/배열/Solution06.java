@@ -1,7 +1,7 @@
 package Java.배열;
 
 import java.util.HashMap;
-
+/* 실패율 */
 class Solution06 {
     public int[] solution(int N, int[] stages) {
         int[] challenger = new int[N+2];

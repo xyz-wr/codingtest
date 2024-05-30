@@ -1,7 +1,7 @@
 package Java.배열;
 
 import java.util.*;
-
+/* 모의고사*/
 class Solution04 {
     public int[] solution(int[] answers) {
         int[][] guess = {{1, 2, 3, 4, 5},

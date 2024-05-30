@@ -1,7 +1,7 @@
 package Java.배열;
 
 import java.util.Arrays;
-
+/* 배열 정렬하기*/
 public class Solution01 {
 
     public static void main(String[] args) {
@@ -12,9 +12,8 @@ public class Solution01 {
 
     // 이 부분을 변경해서 실행해보세요.
     private static int[] solution(int[] arr) {
-        int[] clone = arr;
+        int[] clone = arr.clone();
         Arrays.sort(clone);
-
         return clone;
     }
 

@@ -1,5 +1,5 @@
 package Java.스택;
-
+/* 올바른 괄호*/
 import java.util.*;
 class Solution01 {
     boolean solution(String s) {

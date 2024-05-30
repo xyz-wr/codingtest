@@ -1,7 +1,7 @@
 package Java.스택;
 
 import java.util.Stack;
-
+/* 10진수를 2진수로 변환하기*/
 public class Solution02 {
 
     public static void main(String[] args) {
