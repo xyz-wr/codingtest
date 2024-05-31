@@ -1,6 +1,7 @@
 package Java.큐;
 
 import java.util.*;
+/*카드 뭉치*/
 class Solution03 {
     public String solution(String[] cards1, String[] cards2, String[] goal) {
         ArrayDeque<String> cardDeque1 = new ArrayDeque<>(Arrays.asList(cards1));

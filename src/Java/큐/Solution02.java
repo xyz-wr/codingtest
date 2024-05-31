@@ -1,7 +1,7 @@
 package Java.큐;
 
 import java.util.*;
-
+/* 기능 개발 */
 class Solution02 {
     public int[] solution(int[] progresses, int[] speeds) {
         Queue<Integer> answer = new ArrayDeque<>();

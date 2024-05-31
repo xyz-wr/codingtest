@@ -1,7 +1,7 @@
 package Java.큐;
 
 import java.util.ArrayDeque;
-
+/* 요세푸스 문제*/
 public class Solution01 {
 
     public static void main(String[] args) {
