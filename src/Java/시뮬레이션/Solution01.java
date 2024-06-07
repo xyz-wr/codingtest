@@ -24,7 +24,6 @@ public class Solution01 {
     }
 
     private static int[][] rotate90(int[][] arr) {
-        // ❷ 배열의 크기 저장
         int n = arr.length;
 
         int[][] rotatedArr = new int[n][n];
